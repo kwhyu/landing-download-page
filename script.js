@@ -98,7 +98,8 @@ function getRandomSize() {
     const link = document.createElement('a');
     const adLinks = [
         'https://fpsaimlabfakecopyoioi.netlify.app/',
-        'https://youtu.be/9AcPURZrmRs?si=hDk5cKyrkHuv6rmR'
+        'https://youtu.be/9AcPURZrmRs?si=hDk5cKyrkHuv6rmR',
+        'https://youtu.be/PIkRTimIlBM?si=SPRN5m8pW2fTZxa0'
       ];
       link.href = adLinks[Math.floor(Math.random() * adLinks.length)];
           link.target = '_blank';
