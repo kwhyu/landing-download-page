@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e3f2fd, #e1f5fe);
+    color: #333;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 2rem;
+  }
+  
+  h1 {
+    margin-bottom: 2rem;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .app-img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: contain;
+    margin: 1rem 0;
+  }
+  
+  .download-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background: #ff00c8;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    animation: blinkColor 1s infinite;
+    box-shadow: 0 4px 20px rgba(255, 0, 200, 0.8);
+    transition: transform 0.2s ease;
+  }
+  
+  .download-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  @keyframes blinkColor {
+    0% { background-color: #ff00c8; box-shadow: 0 0 20px #ff00c8; }
+    25% { background-color: #00e5ff; box-shadow: 0 0 20px #00e5ff; }
+    50% { background-color: #76ff03; box-shadow: 0 0 20px #76ff03; }
+    75% { background-color: #ffab00; box-shadow: 0 0 20px #ffab00; }
+    100% { background-color: #ff1744; box-shadow: 0 0 20px #ff1744; }
+  }
+  
